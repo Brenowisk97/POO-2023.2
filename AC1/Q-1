@@ -1,0 +1,14 @@
+public class CalculodaMedia {
+    public static void main(String[] args) {
+        double ap1 = 6.5;
+        double ap2 = 9.0;
+        double ac = 9.0;
+
+        double media = calcularMedia(ap1, ap2, ac);
+        System.out.println("A média é: " + media);
+    }
+
+    public static double calculodaMedia(double ap1, double ap2, double ac) {
+        return (ap1 + ap2) * 0.4 + ac * 0.2;
+    }
+}

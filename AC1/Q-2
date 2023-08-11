@@ -1,0 +1,11 @@
+public class MostrarNumeros {
+    public static void main(String[] args) {
+        mostrarNumeros(150, 200);
+    }
+
+    public static void mostrarNumeros(int inicio, int fim) {
+        for (int i = inicio; i <= fim; i++) {
+            System.out.println(i);
+        }
+    }
+}

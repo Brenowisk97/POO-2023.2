@@ -1,0 +1,19 @@
+public class AnosBissexto {
+    public static void main(String[] args) {
+        int ano = 2000;
+
+        if (eBissexto(ano)) {
+            System.out.println(ano + " é bissexto.");
+        } else {
+            System.out.println(ano + " não é bissexto.");
+        }
+    }
+
+    public static boolean eBissexto(int ano) {
+        if ((ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
