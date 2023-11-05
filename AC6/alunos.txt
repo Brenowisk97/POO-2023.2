@@ -1,0 +1,5 @@
+breno de souza ,ciencia de dados,202201037725
+Joao silva,engenharia,202201037726
+Fernando Diniz,agronomia,202201037727
+Luiza Borges,Medicina,202201037728
+Diogo Prado,Economia,202201037729
